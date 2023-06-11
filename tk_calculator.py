@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import *
 from tkinter import messagebox
 
-root = Tk()
+root = tk.Tk()
 root.title("Calculator")
 topbar=Menu(root)
 root.config(menu=topbar)
